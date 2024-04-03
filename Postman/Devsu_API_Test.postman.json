@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "0e95dec2-0355-4dcb-9955-bbe0888d3a9b",
+		"name": "Devsu_API_Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "414277",
+		"_collection_link": "https://lunar-star-394415.postman.co/workspace/express_course~43669152-9520-4f0f-be18-28c6286691bb/collection/414277-0e95dec2-0355-4dcb-9955-bbe0888d3a9b?action=share&source=collection_link&creator=414277"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.demoblaze.com"
+					},
+					{
+						"key": "Content-Length",
+						"value": "48"
+					},
+					{
+						"key": "Sec-Ch-Ua",
+						"value": "\"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Sec-Ch-Ua-Mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36"
+					},
+					{
+						"key": "Sec-Ch-Ua-Platform",
+						"value": "\"Linux\""
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.demoblaze.com"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.demoblaze.com/"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Priority",
+						"value": "u=1, i"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"\",\"password\":\"\"}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/signup",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.demoblaze.com"
+					},
+					{
+						"key": "Content-Length",
+						"value": "43"
+					},
+					{
+						"key": "Sec-Ch-Ua",
+						"value": "\"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Sec-Ch-Ua-Mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36"
+					},
+					{
+						"key": "Sec-Ch-Ua-Platform",
+						"value": "\"Linux\""
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.demoblaze.com"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.demoblaze.com/"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Priority",
+						"value": "u=4, i"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"devsu2\",\"password\":\"ZGV2c3Uy\"}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/login",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,10 @@
+1. The API Functionality Validation passing all the tests, 
+   it indicates that the basic functionality of the demoblaze API endpoints
+   related to user sign-up and login is working as expected.
+
+2. The Error Handling covers scenarios such as signing up with an existing user, 
+   logging in with a non-existent user, and logging in with an existent user this 
+   ensures robust error handling in the API. 
+
+3. The test suite covers a range of scenarios, including both positive and negative cases. 
+   This provides comprehensive coverage of the API functionality
